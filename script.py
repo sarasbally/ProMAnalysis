@@ -36,7 +36,7 @@ def generate_trace(event,name):
 		<string key="description" value="PaperOne"/>
                 %s
         </trace>
-""" % (event, name)	
+""" % ( name, event)	
 		
 def generate():
     print("""<?xml version="1.0" encoding="UTF-8" ?>
@@ -67,7 +67,7 @@ def generate():
 			words= line.split(";")
 			nw=0
 			for word in words:
-				if(nw==1):
+				if(nw==0):
 					nametrace=word
 				if(nw==4):
 					 name=word
