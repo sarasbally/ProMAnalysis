@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.deckfour.xes.extension.std.XConceptExtension;
+import org.deckfour.xes.extension.std.XLifecycleExtension;
 import org.deckfour.xes.extension.std.XOrganizationalExtension;
 import org.deckfour.xes.extension.std.XTimeExtension;
 import org.deckfour.xes.factory.XFactory;
@@ -49,6 +50,7 @@ public class OpenCSVFilePlugin extends AbstractImportPlugin{
 		SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy HH:mm");
 		initializeLog();
 		Map<String,List<Comparator>> maplistevent = new HashMap<String, List<Comparator>>();
+		//Map<String,List<CollEvent>> maplistevent = new HashMap<String, List<CollEvent>>();
 		//System.out.println(input.toString());
 		int numline=0;
 		String [] nextLine;
@@ -56,18 +58,18 @@ public class OpenCSVFilePlugin extends AbstractImportPlugin{
 			if(numline>0){
 				// nextLine[] is an array of values from the line
 				String time=nextLine[2];
-				
+
 				String name=nextLine[4].trim();
 				name = name.replaceAll(" ", "-");
 				name = name.replaceAll("--", "-");
 				name = name.replaceAll("--", "-");
-				
+
 				String rfc=nextLine[0];
-				
+
 				String resource = nextLine[5];
-				
+
 				Date date = (Date)formatter.parse(time);
-				
+
 				if(name.trim().length()!=0)	{
 					if(!maplistevent.containsKey(rfc)){
 						List<Comparator> elist = new ArrayList<Comparator>();
@@ -81,6 +83,14 @@ public class OpenCSVFilePlugin extends AbstractImportPlugin{
 						elist.add(new Comparator(date, makeEvent(name, date,resource)));
 						maplistevent.put(rfc, elist);
 					}
+					/*if(maplistevent.containsKey(rfc)){
+						List<CollEvent> trace = maplistevent.get(rfc);
+						trace.add(makexEvent(name, date,resource));
+					}else{
+						List<CollEvent>  trace = new ArrayList<CollEvent>();
+						trace.add(makexEvent(name,date,resource));
+						maplistevent.put(rfc,trace );
+					}*/
 				}
 			}
 			numline++;
@@ -96,63 +106,44 @@ public class OpenCSVFilePlugin extends AbstractImportPlugin{
 			}
 
 		}
-		
-		/*String strLine = "";
-		StringTokenizer st = null;
-		int lineNumber = 0, tokenNumber = 0;
-		while( (strLine = br.readLine()) != null)
-		{
 
-			if(lineNumber>0){
-				//break comma separated line using ","
-				st = new StringTokenizer(strLine, ";");
-
-				// XTrace trace = this.createAndAddTrace(String.valueOf(lineNumber));
-				String name="a";
-				String timestamp = "";
-				String rfc = "",res="";
-				while(st.hasMoreTokens())
-				{
-
-					switch (tokenNumber) {
-					case 4: name = st.nextToken() ; break;
-					case 2: timestamp = st.nextToken() ; break;
-					case 0: rfc = st.nextToken() ; break;
-					case 5: res = st.nextToken() ; break;
-					default: st.nextToken() ; break;
-
-					}
-					//display csv values
-
-					tokenNumber++;
-				} 
-
-
-
-
-
-				//reset token number
-				tokenNumber = 0;
-			}
-			lineNumber++;
+		/*for(String iid : maplistevent.keySet()){
+			List<CollEvent> traces = maplistevent.get(iid);
+			Collections.sort(traces);
+			XTrace trace = this.createAndAddTrace(String.valueOf(iid));
+			trace.addAll(traces);
 		}*/
+
+		
 		return log;
 	} 
 
+	/*private CollEvent makexEvent(String name, Date date, String resource) {
+		XAttributeMap attMap = new XAttributeMapImpl();
+		putLiteral(attMap, XConceptExtension.KEY_NAME, name);
+		putLiteral(attMap, XLifecycleExtension.KEY_TRANSITION, "complete");
+		if(resource.trim().length()!=0){
+			putLiteral(attMap, XOrganizationalExtension.KEY_RESOURCE, resource);
+		}
+		putTimestamp(attMap, XTimeExtension.KEY_TIMESTAMP, date);
+		CollEvent newEvent = new CollEvent(attMap);
+		return newEvent;
+	}*/
+
 	private XEvent makeEvent(String name, Date timestamp, String  res)  {
-		
-			XAttributeMap attMap = new XAttributeMapImpl();
 
-			putLiteral(attMap, XConceptExtension.KEY_NAME, name);
-			//putLiteral(attMap, "lifecycle:transition", "complete");
-			if(res.trim().length()!=0){
-				putLiteral(attMap, XOrganizationalExtension.KEY_RESOURCE, res);
-			}
-			putTimestamp(attMap, XTimeExtension.KEY_TIMESTAMP, timestamp);
+		XAttributeMap attMap = new XAttributeMapImpl();
 
-			XEvent newEvent = new XEventImpl(attMap);
-			return newEvent;
-		
+		putLiteral(attMap, XConceptExtension.KEY_NAME, name);
+		//putLiteral(attMap, "lifecycle:transition", "complete");
+		if(res.trim().length()!=0){
+			putLiteral(attMap, XOrganizationalExtension.KEY_RESOURCE, res);
+		}
+		putTimestamp(attMap, XTimeExtension.KEY_TIMESTAMP, timestamp);
+
+		XEvent newEvent = new XEventImpl(attMap);
+		return newEvent;
+
 	}
 
 	private void putLiteral(XAttributeMap attMap, String key, String value) {
