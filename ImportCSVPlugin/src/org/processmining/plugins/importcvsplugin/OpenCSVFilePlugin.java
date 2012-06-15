@@ -31,8 +31,8 @@ import org.processmining.framework.plugin.annotations.Plugin;
 import au.com.bytecode.opencsv.CSVReader;
 
 
-@Plugin(name = "Import CVS", parameterLabels = { "Import" }, returnLabels = { "Imported" }, returnTypes = { XLog.class })
-@UIImportPlugin(description = "Import CVS", extensions = { "cvs" })
+@Plugin(name = "Import CSV", parameterLabels = { "Import" }, returnLabels = { "Imported" }, returnTypes = { XLog.class })
+@UIImportPlugin(description = "Import CSV", extensions = { "csv" })
 
 public class OpenCSVFilePlugin extends AbstractImportPlugin{
 
