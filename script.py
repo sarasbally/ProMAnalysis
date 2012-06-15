@@ -16,7 +16,7 @@ if len(sys.argv) < 2:
 #	words= line.split(";")
 #	for word in words:
 		#print word
-		
+
 def generate_event(res, cicle, name,time):
 	return """
 	 <event>
@@ -27,6 +27,28 @@ def generate_event(res, cicle, name,time):
               <date key="time:timestamp" value="%s"/>
               </event> 
 """ % (res, cicle, name,time)
+		
+map={}
+i=0
+for line in fileinput.input(sys.argv[1]):
+	if(i!=0):
+		words= line.split(";")
+		nametrace=words[0]
+		name=words[4]
+		time=words[2]
+		resource=words[5]+'/'+words[7]
+		if(map.has_key(nametrace)):
+			event=map[nametrace]
+			event=event+generate_event(resource, "complete", name,time)
+			map[nametrace]=event
+		else:
+			event=generate_event(resource, "complete", name,time)
+			map[nametrace]=event
+	i=i+1
+		
+
+		
+
 	
 def generate_trace(event,name):
     
@@ -36,7 +58,7 @@ def generate_trace(event,name):
 		<string key="description" value="PaperOne"/>
                 %s
         </trace>
-""" % ( name, event)	
+""" % (name, event)	
 		
 def generate():
     print("""<?xml version="1.0" encoding="UTF-8" ?>
@@ -56,35 +78,21 @@ def generate():
 	<classifier name="MXML Legacy Classifier" keys="concept:name lifecycle:transition"/>
 	<classifier name="Event Name" keys="concept:name"/>
 	<classifier name="Resource" keys="org:resource"/>
-	<string key="source" value="Example One from Guancio"/>
+	<string key="source" value="Example One from Giorgio"/>
 	<string key="concept:name" value="Paper"/>
 	<string key="lifecycle:model" value="standard"/>
 	<string key="description" value="Paper Submission"/>
        """)
-    i=0
-    for line in fileinput.input(sys.argv[1]):
-		if(i!=0):
-			words= line.split(";")
-			nw=0
-			for word in words:
-				if(nw==0):
-					nametrace=word
-				if(nw==4):
-					 name=word
-				if(nw==2):
-					 time=word
-				nw=nw+1
-			event=generate_event("res", "complete", name,time)
-			print generate_trace(event,nametrace)
-				
-		i=i+1
-    
+    for key in map.keys():
+    	event=map[key]
+    	print generate_trace(event,key)
+   
     print("""
         </log>
           """)
 
 #NumeroRFC;Id;BeginDate;CategoriaRFC;Code;ChangeManager;ClasseRFC;Comp;FlowStatus;Richiedente;Stato;TipoRFC
-
+#0			1  2         3			  4		5			6			7	8			9			10	 11
 
 
 generate()	
