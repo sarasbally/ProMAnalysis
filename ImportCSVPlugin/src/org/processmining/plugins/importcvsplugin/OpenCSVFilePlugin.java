@@ -1,18 +1,18 @@
 package org.processmining.plugins.importcvsplugin;
 
-import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.text.DateFormat;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
-import java.util.StringTokenizer;
 
 import org.deckfour.xes.extension.std.XConceptExtension;
 import org.deckfour.xes.extension.std.XOrganizationalExtension;
+import org.deckfour.xes.extension.std.XTimeExtension;
 import org.deckfour.xes.factory.XFactory;
 import org.deckfour.xes.factory.XFactoryRegistry;
 import org.deckfour.xes.model.XAttributeMap;
@@ -46,32 +46,56 @@ public class OpenCSVFilePlugin extends AbstractImportPlugin{
 			String filename, long fileSizeInBytes) throws Exception {
 
 		CSVReader reader = new CSVReader(new InputStreamReader(input), ';');
-		
+		SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy HH:mm");
 		initializeLog();
-		Map<String,XTrace> maptrace = new HashMap<String,XTrace>();
-		System.out.println(input.toString());
+		Map<String,List<Comparator>> maplistevent = new HashMap<String, List<Comparator>>();
+		//System.out.println(input.toString());
 		int numline=0;
-		 String [] nextLine;
-		    while ((nextLine = reader.readNext()) != null) {
-		    	if(numline>0){
-		        // nextLine[] is an array of values from the line
-		    	String time=nextLine[2];
-		    	
-		    	
-		    	//if(time==null)time="15/02/2012  15:04:00";
-		    	if(!maptrace.containsKey(nextLine[0])){
-					XTrace trace = this.createAndAddTrace(String.valueOf(nextLine[0]));
-					trace.add(makeEvent(nextLine[4], time,nextLine[5]));
-					maptrace.put(nextLine[0], trace);
-				}else{
-					XTrace trace = maptrace.get(nextLine[0]);
-					trace.add(makeEvent(nextLine[4],time,nextLine[5]));
-					maptrace.put(nextLine[0], trace);
+		String [] nextLine;
+		while ((nextLine = reader.readNext()) != null) {
+			if(numline>0){
+				// nextLine[] is an array of values from the line
+				String time=nextLine[2];
+				
+				String name=nextLine[4].trim();
+				name = name.replaceAll(" ", "-");
+				name = name.replaceAll("--", "-");
+				name = name.replaceAll("--", "-");
+				
+				String rfc=nextLine[0];
+				
+				String resource = nextLine[5];
+				
+				Date date = (Date)formatter.parse(time);
+				
+				if(name.trim().length()!=0)	{
+					if(!maplistevent.containsKey(rfc)){
+						List<Comparator> elist = new ArrayList<Comparator>();
+						elist.add(new Comparator(date, makeEvent(name, date,resource)));
+
+						maplistevent.put(rfc, elist);
+
+
+					}else{
+						List<Comparator> elist = maplistevent.get(rfc);
+						elist.add(new Comparator(date, makeEvent(name, date,resource)));
+						maplistevent.put(rfc, elist);
+					}
 				}
-		    	}
-		    	numline++;
-		    
-		    }
+			}
+			numline++;
+
+		}
+
+		for(String key : maplistevent.keySet()){
+			List<Comparator> elist = maplistevent.get(key);
+			Collections.sort(elist);
+			XTrace xtrace = this.createAndAddTrace(String.valueOf(key));
+			for(Comparator event: elist ){
+				xtrace.add(event.getEvent());
+			}
+
+		}
 		
 		/*String strLine = "";
 		StringTokenizer st = null;
@@ -99,10 +123,10 @@ public class OpenCSVFilePlugin extends AbstractImportPlugin{
 
 					}
 					//display csv values
-					
+
 					tokenNumber++;
 				} 
-				
+
 
 
 
@@ -115,30 +139,20 @@ public class OpenCSVFilePlugin extends AbstractImportPlugin{
 		return log;
 	} 
 
-	private XEvent makeEvent(String name, String timestamp, String  res)  {
-		SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy HH:mm");
-		Date time;
-		try {
-			time = (Date)formatter.parse(timestamp);
-
+	private XEvent makeEvent(String name, Date timestamp, String  res)  {
+		
 			XAttributeMap attMap = new XAttributeMapImpl();
-				putLiteral(attMap, "concept:name", name);
-			putLiteral(attMap, "lifecycle:transition", "complete");
+
+			putLiteral(attMap, XConceptExtension.KEY_NAME, name);
+			//putLiteral(attMap, "lifecycle:transition", "complete");
 			if(res.trim().length()!=0){
-				if(res!=null){
-				putLiteral(attMap, "org:resource", res);
-				}
+				putLiteral(attMap, XOrganizationalExtension.KEY_RESOURCE, res);
 			}
-			
-			putTimestamp(attMap, "time:timestamp", time);
-			
+			putTimestamp(attMap, XTimeExtension.KEY_TIMESTAMP, timestamp);
+
 			XEvent newEvent = new XEventImpl(attMap);
 			return newEvent;
-		} catch (ParseException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			return null;
-		}
+		
 	}
 
 	private void putLiteral(XAttributeMap attMap, String key, String value) {
@@ -171,3 +185,5 @@ public class OpenCSVFilePlugin extends AbstractImportPlugin{
 		return trace;
 	}
 }
+
+
