@@ -1,4 +1,4 @@
-<project name="ImportCVSPlugin" default="Compile Sources" basedir=".">
+<project name="ImportCSVPlugin" default="Compile Sources" basedir=".">
 		<!-- set global properties for this build -->
 		<property environment="env" />
 		<property name="src" location="src" />
@@ -8,7 +8,7 @@
 		<property name="dist" location="dist" />
 		<property name="release" location="latestrelease" />
 		<property name="version" value="6.1.${env.BUILD_NUMBER}" />
-		<property name="project" value="ImportCVSPlugin" />
+		<property name="project" value="ImportCSVPlugin" />
 
 		<!-- Set the os to win32, win64, lin32, lin64, mac, or all -->
 		<property name="os" value="all" />
