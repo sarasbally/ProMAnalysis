@@ -6,7 +6,7 @@ import sys
 import csv
 from datetime import datetime
 import fileinput
-
+import re
 
 if len(sys.argv) < 2:
     print "script.py <namefile>"
@@ -53,9 +53,10 @@ for line in spamReader:
 		words= line
 		nametrace=words[0]
 		name=words[4]
-		name = name.replace(' ', '-')
-		name = name.replace('--', '-')
-		name = name.replace('--', '-')
+		#name = re.sub('\W','-', name)
+		#name = name.replace(' ', '-')
+		#name = name.replace('---', '-')
+		#name = name.replace('--', '-')
 		#name = name.replace(' ', '-')
 		time=words[2]
 		resource=words[5]+'/'+words[7]
