@@ -4,7 +4,7 @@
     <XPDLVersion>2.2</XPDLVersion>
     <Vendor>Global 360</Vendor>
     <Created>2012-06-08T10:34:59+02:00</Created>
-    <ModificationDate>2012-06-13T16:04:01+02:00</ModificationDate>
+    <ModificationDate>2012-06-18T12:55:25+02:00</ModificationDate>
     <LayoutInfo PixelsPerMillimeter="3.78" />
   </PackageHeader>
   <ConformanceClass BPMNModelPortabilityConformance="STANDARD" />
@@ -83,21 +83,21 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-14" Name="RFC01 Registrazione RFC da CMDB">
+        <Activity Id="ID-14" Name="RFC01-Registrazione-RFC-da-CMDB">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="40.0" YCoordinate="340.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-15" Name="RFC01 Richiesta da Portale">
+        <Activity Id="ID-15" Name="RFC01-Richiesta-da-Portale">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="40.0" YCoordinate="200.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-18" Name="SYS01.RegRFCstd">
+        <Activity Id="ID-18" Name="SYS01-RegRFCstd">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="40.0" YCoordinate="60.0" />
@@ -129,7 +129,7 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-23" Name="RFC07 - InizioAttivitaStd">
+        <Activity Id="ID-23" Name="RFC07-InizioAttivitaStd">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="220.0" YCoordinate="60.0" />
@@ -155,21 +155,21 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-28" Name="SYS07 AvviaPcChange">
+        <Activity Id="ID-28" Name="SYS07-AvviaPcChange">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="390.0" YCoordinate="60.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-29" Name="SYS07 AvviaPerifericaChange">
+        <Activity Id="ID-29" Name="SYS07-AvviaPerifericaChange">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="390.0" YCoordinate="130.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-30" Name="SYS07 AvviaImacNonCAtegorizzato">
+        <Activity Id="ID-30" Name="SYS07-AvviaImacNonCAtegorizzato">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="390.0" YCoordinate="200.0" />
@@ -184,56 +184,56 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-38" Name="SYS07 - SuspendForImac">
+        <Activity Id="ID-38" Name="SYS07-SuspendForImac">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="860.0" YCoordinate="190.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-40" Name="RFC01b Registrazione RFC da CMDB">
+        <Activity Id="ID-40" Name="RFC01b-Registrazione-RFC-da-CMDB">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="40.0" YCoordinate="410.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-42" Name="SYS01 Registrazione RFC">
+        <Activity Id="ID-42" Name="SYS01-Registrazione-RFC">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="40.0" YCoordinate="480.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-47" Name="RFC02 Presa in Carico">
+        <Activity Id="ID-47" Name="RFC02-Presa-in-Carico">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="120.0" YCoordinate="550.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-48" Name="SYS02 Presa in Carico">
+        <Activity Id="ID-48" Name="SYS02-Presa-in-Carico">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="120.0" YCoordinate="620.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-49" Name="RFC02 Convalida Tipo RFC">
+        <Activity Id="ID-49" Name="RFC02-Convalida-Tipo-RFC">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="120.0" YCoordinate="690.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-50" Name="RFC03 Verifica Formale e Categorizzazione">
+        <Activity Id="ID-50" Name="RFC03-Verifica-Formale-e-Categorizzazione">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="210.0" YCoordinate="620.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-51" Name="SYS03 Preparazione Verifica Formale">
+        <Activity Id="ID-51" Name="SYS03-Preparazione-Verifica-Formale">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="210.0" YCoordinate="690.0" />
@@ -259,21 +259,21 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-59" Name="SYS03.1a CAB">
+        <Activity Id="ID-59" Name="SYS03.1a-CAB">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="210.0" YCoordinate="840.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-60" Name="SYS03.1b CIO">
+        <Activity Id="ID-60" Name="SYS03.1b-CIO">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="120.0" YCoordinate="840.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-61" Name="SYS03.1c CM">
+        <Activity Id="ID-61" Name="SYS03.1c-CM">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="300.0" YCoordinate="840.0" />
@@ -288,14 +288,14 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-69" Name="SYS03.2a - Collega Asset">
+        <Activity Id="ID-69" Name="SYS03.2a-Collega-Asset">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="390.0" YCoordinate="990.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-70" Name="SYS03.3 Finalizzazione Collega Asset">
+        <Activity Id="ID-70" Name="SYS03.3-Finalizzazione-Collega-Asset">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="300.0" YCoordinate="920.0" />
@@ -320,21 +320,21 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-75" Name="RFC04 Informazioni RFC">
+        <Activity Id="ID-75" Name="RFC04-Informazioni-RFC">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="480.0" YCoordinate="840.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-76" Name="SYS03.4 Verifica Formale e Categorizzazione">
+        <Activity Id="ID-76" Name="SYS03.4-Verifica-Formale-e-Categorizzazione">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="480.0" YCoordinate="920.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-79" Name="RFC06 - Preparazione riunione CAB/CIO">
+        <Activity Id="ID-79" Name="RFC06-Preparazione-riunione-CAB/CIO">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="480.0" YCoordinate="770.0" />
@@ -359,21 +359,21 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-83" Name="RFC06 - Registrazione decisione CIO">
+        <Activity Id="ID-83" Name="RFC06-Registrazione-decisione-CIO">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="480.0" YCoordinate="690.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-84" Name="RFC06 - Registrazione decisione CAB">
+        <Activity Id="ID-84" Name="RFC06-Registrazione-decisione-CAB">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="390.0" YCoordinate="690.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-85" Name="SYS06 - Registrazione decisione CAB/CIO">
+        <Activity Id="ID-85" Name="SYS06-Registrazione-decisione-CAB/CIO">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="390.0" YCoordinate="540.0" />
@@ -422,21 +422,21 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-119" Name="SYS03.2 Prepara collega asset">
+        <Activity Id="ID-119" Name="SYS03.2-Prepara-collega-asset">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="210.0" YCoordinate="990.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-125" Name="RFC07 - Registrazione inizio attivitÃƒÂ ">
+        <Activity Id="ID-125" Name="RFC07-Registrazione-inizio-attivita">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="300.0" YCoordinate="470.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-126" Name="SYS07 - Invio mail">
+        <Activity Id="ID-126" Name="SYS07-Invio-mail">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="300.0" YCoordinate="400.0" />
@@ -451,14 +451,14 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-130" Name="SYS08 - Inizio attivitÃƒÂ ">
+        <Activity Id="ID-130" Name="SYS08-Inizio-attivita">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="490.0" YCoordinate="540.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-131" Name="RFC07.a Registrazione inzio attivita">
+        <Activity Id="ID-131" Name="RFC07.a-Registrazione inzio attivita">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="490.0" YCoordinate="340.0" />
@@ -485,14 +485,14 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-137" Name="RFC08 Inizio attivita">
+        <Activity Id="ID-137" Name="RFC08-Inizio-attivita">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="680.0" YCoordinate="620.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-146" Name="RFC09 - Fine attivitÃƒÂ ">
+        <Activity Id="ID-146" Name="RFC09-Fine-attivita">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="680.0" YCoordinate="340.0" />
@@ -534,35 +534,35 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-155" Name="SYS09 Copia data completamento">
+        <Activity Id="ID-155" Name="SYS09-Copia-data-completamento">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="770.0" YCoordinate="420.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-164" Name="SYS09.1 - Fine attivitÃƒÂ ">
+        <Activity Id="ID-164" Name="SYS09.1-Fine-attivita">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="860.0" YCoordinate="530.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-166" Name="SYS09 Invio mail">
+        <Activity Id="ID-166" Name="SYS09-Invio-mail">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="770.0" YCoordinate="530.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-170" Name="SYS07 - InviioMailRfcStd">
+        <Activity Id="ID-170" Name="SYS07-InviioMailRfcStd">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="770.0" YCoordinate="60.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-174" Name="SYS11 - Fine">
+        <Activity Id="ID-174" Name="SYS11-Fine">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="1040.0" YCoordinate="280.0" />
@@ -587,35 +587,35 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-177" Name="Avvia processo deployment">
+        <Activity Id="ID-177" Name="Avvia-processo-deployment">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="1040.0" YCoordinate="350.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-181" Name="RFC10 Verifica collaudo">
+        <Activity Id="ID-181" Name="RFC10-Verifica-collaudo">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="1140.0" YCoordinate="420.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-182" Name="SYS10 Verifica collaudo">
+        <Activity Id="ID-182" Name="SYS10-Verifica-collaudo">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="1040.0" YCoordinate="420.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-187" Name="SYS11 - Fine2">
+        <Activity Id="ID-187" Name="SYS11-Fine2">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="1140.0" YCoordinate="280.0" />
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-188" Name="RFC10 - Aggiornamento Asset CMDB">
+        <Activity Id="ID-188" Name="RFC10-Aggiornamento-Asset-CMDB">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="1140.0" YCoordinate="200.0" />
