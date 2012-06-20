@@ -54,9 +54,9 @@ for line in spamReader:
 		nametrace=words[0]
 		name=words[4]
 		#name = re.sub('\W','-', name)
-		#name = name.replace(' ', '-')
-		#name = name.replace('---', '-')
-		#name = name.replace('--', '-')
+		name = name.replace(' ', '-')
+		name = name.replace('---', '-')
+		name = name.replace('--', '-')
 		#name = name.replace(' ', '-')
 		time=words[2]
 		resource=words[5]+'/'+words[7]
