@@ -1,4 +1,4 @@
-package org.processmining.plugins.importcvsplugin;
+package org.processmining.plugins.importcsvplugin;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;

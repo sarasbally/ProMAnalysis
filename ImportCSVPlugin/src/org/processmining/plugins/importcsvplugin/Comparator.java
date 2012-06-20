@@ -1,4 +1,4 @@
-package org.processmining.plugins.importcvsplugin;
+package org.processmining.plugins.importcsvplugin;
 
 
 
