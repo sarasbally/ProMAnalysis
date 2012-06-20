@@ -66,7 +66,7 @@ public class OpenCSVFilePlugin extends AbstractImportPlugin{
 
 				String rfc=nextLine[0];
 
-				String resource = nextLine[5];
+				String resource = nextLine[5]+"/"+ nextLine[7]+"/"+ nextLine[9];
 
 				Date date = (Date)formatter.parse(time);
 
