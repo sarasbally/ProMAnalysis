@@ -55,6 +55,7 @@ for line in spamReader:
 		name=words[4]
 		#name = re.sub('\W','-', name)
 		name = name.replace(' ', '-')
+		name = name.replace('_', '-')
 		name = name.replace('---', '-')
 		name = name.replace('--', '-')
 		#name = name.replace(' ', '-')
