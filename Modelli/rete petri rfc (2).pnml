@@ -86,6 +86,9 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <position x="10" y="240"/>
         <dimension x="40" y="40"/>
       </graphics>
+      <initialMarking>
+        <text>1</text>
+      </initialMarking>
     </place>
     <place id="p40">
       <name>
@@ -694,7 +697,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
     </transition>
     <transition id="t36">
       <name>
-        <text>SYS03.3-Finalizzazione-Collega-Asset</text>
+        <text>SYS03.3-Finalizzazione-collega-asset</text>
         <graphics>
           <offset x="700" y="660"/>
         </graphics>
@@ -711,7 +714,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
     </transition>
     <transition id="t30">
       <name>
-        <text>SYS03-Preparazione-Verifica-Formale</text>
+        <text>SYS03-Preparazione-verifica-formale</text>
         <graphics>
           <offset x="480" y="520"/>
         </graphics>
@@ -762,7 +765,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
     </transition>
     <transition id="t37">
       <name>
-        <text>SYS03.4-Verifica-Formale-e-Categorizzazione</text>
+        <text>SYS03.4-Verifica-formale-e-categorizzazione</text>
         <graphics>
           <offset x="700" y="590"/>
         </graphics>
@@ -830,7 +833,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
     </transition>
     <transition id="t5">
       <name>
-        <text>AvviaSAP_RFCDerivata</text>
+        <text>AvviaSAP-RFCDerivate</text>
         <graphics>
           <offset x="1140" y="730"/>
         </graphics>
@@ -949,7 +952,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
     </transition>
     <transition id="t21">
       <name>
-        <text>Process_gestionemodifiche_act1</text>
+        <text>Process-gestionemodifiche-act1</text>
         <graphics>
           <offset x="320" y="60"/>
         </graphics>
@@ -985,7 +988,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
       <name>
         <text>SYS11-End</text>
         <graphics>
-          <offset x="1810" y="470"/>
+          <offset x="1810" y="460"/>
         </graphics>
       </name>
       <graphics>
@@ -1017,7 +1020,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
     </transition>
     <transition id="t22">
       <name>
-        <text>Suspend_RFC</text>
+        <text>Suspend-RFC</text>
         <graphics>
           <offset x="1350" y="730"/>
         </graphics>
@@ -1068,7 +1071,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
     </transition>
     <transition id="t29">
       <name>
-        <text>RFC03-Verifica-Formale-e-Categorizzazione</text>
+        <text>RFC03-Verifica-formale-e-categorizzazione</text>
         <graphics>
           <offset x="480" y="360"/>
         </graphics>
@@ -1085,7 +1088,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
     </transition>
     <transition id="t26">
       <name>
-        <text>RFC02-Presa-in-Carico</text>
+        <text>RFC02-Presa-in-carico</text>
         <graphics>
           <offset x="320" y="360"/>
         </graphics>
@@ -1102,7 +1105,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
     </transition>
     <transition id="t27">
       <name>
-        <text>SYS02-Presa-in-Carico</text>
+        <text>SYS02-Presa-in-carico</text>
         <graphics>
           <offset x="320" y="580"/>
         </graphics>
@@ -1119,7 +1122,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
     </transition>
     <transition id="t58">
       <name>
-        <text>SYS07-InviioMailRfcStd</text>
+        <text>SYS07-Invio-Mail-Rfc-Std</text>
         <graphics>
           <offset x="1010" y="190"/>
         </graphics>
@@ -1153,7 +1156,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
     </transition>
     <transition id="t56">
       <name>
-        <text>RFC07-InizioAttivitaStd</text>
+        <text>RFC07-Inizio-Attivita-Std</text>
         <graphics>
           <offset x="540" y="60"/>
         </graphics>
@@ -1221,7 +1224,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
     </transition>
     <transition id="t51">
       <name>
-        <text>RFC01-Richiesta-da-Portale</text>
+        <text>RFC01-Richiesta-da-portale</text>
         <graphics>
           <offset x="110" y="200"/>
         </graphics>
@@ -1306,7 +1309,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
     </transition>
     <transition id="t14">
       <name>
-        <text>SYS07-AvviaImacNonCAtegorizzato</text>
+        <text>SYS07-Avvia-Imac-Non-Categorizzato</text>
         <graphics>
           <offset x="1080" y="130"/>
         </graphics>
@@ -1340,7 +1343,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
     </transition>
     <transition id="t16">
       <name>
-        <text>AvviaSAP_RFCOrigine</text>
+        <text>AvviaSAP-RFCOrigine</text>
         <graphics>
           <offset x="1210" y="660"/>
         </graphics>
@@ -1391,7 +1394,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
     </transition>
     <transition id="t19">
       <name>
-        <text>RFC07.a-Registrazione inzio attivita</text>
+        <text>RFC07.a-Registrazione-inzio-attivita</text>
         <graphics>
           <offset x="1010" y="440"/>
         </graphics>
