@@ -136,7 +136,7 @@ public class OpenCSVFilePlugin extends AbstractImportPlugin{
 		XAttributeMap attMap = new XAttributeMapImpl();
 
 		putLiteral(attMap, XConceptExtension.KEY_NAME, name);
-		//putLiteral(attMap, "lifecycle:transition", "complete");
+		putLiteral(attMap, "lifecycle:transition", "complete");
 		if(res.trim().length()!=0){
 			putLiteral(attMap, XOrganizationalExtension.KEY_RESOURCE, res);
 		}
