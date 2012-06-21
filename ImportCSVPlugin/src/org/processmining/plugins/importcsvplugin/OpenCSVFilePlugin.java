@@ -60,6 +60,7 @@ public class OpenCSVFilePlugin extends AbstractImportPlugin{
 				String time=nextLine[2];
 
 				String name=nextLine[4].trim();
+				name = name.replaceAll("_", "-");
 				name = name.replaceAll(" ", "-");
 				name = name.replaceAll("--", "-");
 				name = name.replaceAll("--", "-");
