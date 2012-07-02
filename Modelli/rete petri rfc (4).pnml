@@ -150,6 +150,18 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <dimension x="40" y="40"/>
       </graphics>
     </place>
+    <place id="p72">
+      <name>
+        <text>p72</text>
+        <graphics>
+          <offset x="170" y="280"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="170" y="240"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
     <place id="p34">
       <name>
         <text>p34</text>
@@ -207,102 +219,6 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
       </name>
       <graphics>
         <position x="1478" y="545"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </place>
-    <place id="p29">
-      <name>
-        <text>p29</text>
-        <graphics>
-          <offset x="1410" y="450"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1408" y="414"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </place>
-    <place id="p25">
-      <name>
-        <text>p25</text>
-        <graphics>
-          <offset x="1350" y="290"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1350" y="250"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </place>
-    <place id="p10">
-      <name>
-        <text>p10</text>
-        <graphics>
-          <offset x="1140" y="660"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1140" y="620"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </place>
-    <place id="p16">
-      <name>
-        <text>p16</text>
-        <graphics>
-          <offset x="790" y="360"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="785" y="321"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </place>
-    <place id="p15">
-      <name>
-        <text>p15</text>
-        <graphics>
-          <offset x="700" y="360"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="700" y="320"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </place>
-    <place id="p14">
-      <name>
-        <text>p14</text>
-        <graphics>
-          <offset x="640" y="590"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="640" y="550"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </place>
-    <place id="p19">
-      <name>
-        <text>p19</text>
-        <graphics>
-          <offset x="1560" y="460"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1558" y="415"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-    </place>
-    <place id="p72">
-      <name>
-        <text>p72</text>
-        <graphics>
-          <offset x="170" y="280"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="170" y="240"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -378,6 +294,30 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <dimension x="40" y="40"/>
       </graphics>
     </place>
+    <place id="p29">
+      <name>
+        <text>p29</text>
+        <graphics>
+          <offset x="1410" y="450"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1408" y="414"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="p25">
+      <name>
+        <text>p25</text>
+        <graphics>
+          <offset x="1350" y="290"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1350" y="250"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
     <place id="p59">
       <name>
         <text>p59</text>
@@ -387,6 +327,18 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
       </name>
       <graphics>
         <position x="109" y="241"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="p10">
+      <name>
+        <text>p10</text>
+        <graphics>
+          <offset x="1140" y="660"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1140" y="620"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -438,6 +390,30 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <dimension x="40" y="40"/>
       </graphics>
     </place>
+    <place id="p16">
+      <name>
+        <text>p16</text>
+        <graphics>
+          <offset x="790" y="360"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="785" y="321"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="p15">
+      <name>
+        <text>p15</text>
+        <graphics>
+          <offset x="700" y="360"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="700" y="320"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
     <place id="p53">
       <name>
         <text>p53</text>
@@ -450,6 +426,18 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <dimension x="40" y="40"/>
       </graphics>
     </place>
+    <place id="p14">
+      <name>
+        <text>p14</text>
+        <graphics>
+          <offset x="640" y="590"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="640" y="550"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
     <place id="p50">
       <name>
         <text>p50</text>
@@ -459,6 +447,18 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
       </name>
       <graphics>
         <position x="1012" y="484"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="p19">
+      <name>
+        <text>p19</text>
+        <graphics>
+          <offset x="1560" y="460"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1558" y="415"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -802,6 +802,125 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <orientation>1</orientation>
       </toolspecific>
     </transition>
+    <transition id="t4">
+      <name>
+        <text>SYS07-AvviaPerifericaChange</text>
+        <graphics>
+          <offset x="920" y="60"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="916" y="20"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="t5">
+      <name>
+        <text>AvviaSAP-RFCDerivate</text>
+        <graphics>
+          <offset x="1140" y="730"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1140" y="690"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="t6">
+      <name>
+        <text>RFC01b-Registrazione-RFC-da-CMDB</text>
+        <graphics>
+          <offset x="110" y="580"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="109" y="541"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="t7">
+      <name>
+        <text>RFC04-Informazioni-RFC</text>
+        <graphics>
+          <offset x="640" y="440"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="640" y="400"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="t8">
+      <name>
+        <text>t8</text>
+        <graphics>
+          <offset x="640" y="730"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="640" y="690"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="t9">
+      <name>
+        <text>t9</text>
+        <graphics>
+          <offset x="1140" y="590"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1140" y="550"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="t3">
+      <name>
+        <text>SYS07-AvviaPcChange</text>
+        <graphics>
+          <offset x="790" y="130"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="786" y="90"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
     <transition id="t20">
       <name>
         <text>SYS01-Registrazione-RFC</text>
@@ -819,6 +938,40 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <orientation>1</orientation>
       </toolspecific>
     </transition>
+    <transition id="t50">
+      <name>
+        <text>SYS11-End</text>
+        <graphics>
+          <offset x="1810" y="460"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1805" y="416"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="t2">
+      <name>
+        <text>t2</text>
+        <graphics>
+          <offset x="1410" y="520"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1410" y="480"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
     <transition id="t21">
       <name>
         <text>Process-gestionemodifiche-act1</text>
@@ -828,6 +981,23 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
       </name>
       <graphics>
         <position x="320" y="20"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="t1">
+      <name>
+        <text>RFC01-Registrazione-RFC-da-CMDB</text>
+        <graphics>
+          <offset x="110" y="360"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="109" y="321"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -972,346 +1142,6 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <orientation>1</orientation>
       </toolspecific>
     </transition>
-    <transition id="t10">
-      <name>
-        <text>RFC06-Registrazione-decisione-CAB</text>
-        <graphics>
-          <offset x="870" y="360"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="855" y="321"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="t11">
-      <name>
-        <text>Avvia-processo-deployment</text>
-        <graphics>
-          <offset x="1560" y="590"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1558" y="545"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="t12">
-      <name>
-        <text>RFC10-Verifica-collaudo</text>
-        <graphics>
-          <offset x="1620" y="460"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1618" y="415"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="t13">
-      <name>
-        <text>SYS10-Verifica-collaudo</text>
-        <graphics>
-          <offset x="1560" y="660"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1558" y="615"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="t14">
-      <name>
-        <text>SYS07-Avvia-Imac-Non-Categorizzato</text>
-        <graphics>
-          <offset x="1080" y="130"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1076" y="90"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="t15">
-      <name>
-        <text>RFC08-Inizio-attivita</text>
-        <graphics>
-          <offset x="1210" y="590"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1210" y="550"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="t16">
-      <name>
-        <text>AvviaSAP-RFCOrigine</text>
-        <graphics>
-          <offset x="1210" y="660"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1210" y="620"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="t17">
-      <name>
-        <text>SYS09-Copia-data-completamento</text>
-        <graphics>
-          <offset x="1480" y="360"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1478" y="324"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="t18">
-      <name>
-        <text>SYS09-Invio-mail</text>
-        <graphics>
-          <offset x="1480" y="520"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1478" y="484"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="t19">
-      <name>
-        <text>RFC07.a-Registrazione-inzio-attivita</text>
-        <graphics>
-          <offset x="1010" y="440"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1010" y="400"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="t4">
-      <name>
-        <text>SYS07-AvviaPerifericaChange</text>
-        <graphics>
-          <offset x="920" y="60"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="916" y="20"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="t5">
-      <name>
-        <text>AvviaSAP-RFCDerivate</text>
-        <graphics>
-          <offset x="1140" y="730"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1140" y="690"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="t6">
-      <name>
-        <text>RFC01b-Registrazione-RFC-da-CMDB</text>
-        <graphics>
-          <offset x="110" y="580"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="109" y="541"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="t7">
-      <name>
-        <text>RFC04-Informazioni-RFC</text>
-        <graphics>
-          <offset x="640" y="440"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="640" y="400"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="t8">
-      <name>
-        <text>t8</text>
-        <graphics>
-          <offset x="640" y="730"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="640" y="690"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="t9">
-      <name>
-        <text>t9</text>
-        <graphics>
-          <offset x="1140" y="590"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1140" y="550"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="t3">
-      <name>
-        <text>SYS07-AvviaPcChange</text>
-        <graphics>
-          <offset x="790" y="130"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="786" y="90"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="t2">
-      <name>
-        <text>t2</text>
-        <graphics>
-          <offset x="1410" y="520"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1410" y="480"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="t50">
-      <name>
-        <text>SYS11-End</text>
-        <graphics>
-          <offset x="1810" y="460"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1805" y="416"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
-    <transition id="t1">
-      <name>
-        <text>RFC01-Registrazione-RFC-da-CMDB</text>
-        <graphics>
-          <offset x="110" y="360"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="109" y="321"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
     <transition id="t58">
       <name>
         <text>SYS07-Invio-Mail-Rfc-Std</text>
@@ -1348,7 +1178,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
     </transition>
     <transition id="t56">
       <name>
-        <text>RFC07-Inizio-Attivita-Std</text>
+        <text>RFC07-InizioAttivitaStd</text>
         <graphics>
           <offset x="540" y="60"/>
         </graphics>
@@ -1448,6 +1278,176 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <orientation>1</orientation>
       </toolspecific>
     </transition>
+    <transition id="t10">
+      <name>
+        <text>RFC06-Registrazione-decisione-CAB</text>
+        <graphics>
+          <offset x="870" y="360"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="855" y="321"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="t11">
+      <name>
+        <text>Avvia-processo-deployment</text>
+        <graphics>
+          <offset x="1560" y="590"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1558" y="545"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="t12">
+      <name>
+        <text>RFC10-Verifica-collaudo</text>
+        <graphics>
+          <offset x="1620" y="460"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1618" y="415"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="t13">
+      <name>
+        <text>SYS10-Verifica-collaudo</text>
+        <graphics>
+          <offset x="1560" y="660"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1558" y="615"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="t14">
+      <name>
+        <text>SYS07-AvviaImacNonCategorizzato</text>
+        <graphics>
+          <offset x="1080" y="130"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1076" y="90"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="t15">
+      <name>
+        <text>RFC08-Inizio-attivita</text>
+        <graphics>
+          <offset x="1210" y="590"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1210" y="550"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="t16">
+      <name>
+        <text>AvviaSAP-RFCOrigine</text>
+        <graphics>
+          <offset x="1210" y="660"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1210" y="620"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="t17">
+      <name>
+        <text>SYS09-Copia-data-completamento</text>
+        <graphics>
+          <offset x="1480" y="360"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1478" y="324"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="t18">
+      <name>
+        <text>SYS09-Invio-mail</text>
+        <graphics>
+          <offset x="1480" y="520"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1478" y="484"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="t19">
+      <name>
+        <text>RFC07.a-Registrazione-inzio-attivita</text>
+        <graphics>
+          <offset x="1010" y="440"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1010" y="400"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
     <arc id="a63" source="p50" target="t43">
       <inscription>
         <text>1</text>
@@ -1503,17 +1503,6 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <displayProbabilityPosition x="500.0" y="0.0"/>
       </toolspecific>
     </arc>
-    <arc id="a125" source="t8" target="p53">
-      <inscription>
-        <text>1</text>
-      </inscription>
-      <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="0.0"/>
-      </toolspecific>
-    </arc>
     <arc id="a59" source="p48" target="t41">
       <inscription>
         <text>1</text>
@@ -1525,7 +1514,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <displayProbabilityPosition x="500.0" y="0.0"/>
       </toolspecific>
     </arc>
-    <arc id="a124" source="p52" target="t8">
+    <arc id="a125" source="t8" target="p53">
       <inscription>
         <text>1</text>
       </inscription>
@@ -1537,6 +1526,17 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
       </toolspecific>
     </arc>
     <arc id="a58" source="t40" target="p48">
+      <inscription>
+        <text>1</text>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="0.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a124" source="p52" target="t8">
       <inscription>
         <text>1</text>
       </inscription>
@@ -1745,17 +1745,6 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <displayProbabilityPosition x="500.0" y="0.0"/>
       </toolspecific>
     </arc>
-    <arc id="a1" source="t20" target="p72">
-      <inscription>
-        <text>1</text>
-      </inscription>
-      <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="0.0"/>
-      </toolspecific>
-    </arc>
     <arc id="a35" source="t31" target="p40">
       <inscription>
         <text>1</text>
@@ -1767,7 +1756,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <displayProbabilityPosition x="500.0" y="0.0"/>
       </toolspecific>
     </arc>
-    <arc id="a2" source="t10" target="p47">
+    <arc id="a1" source="t20" target="p72">
       <inscription>
         <text>1</text>
       </inscription>
@@ -1789,7 +1778,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <displayProbabilityPosition x="500.0" y="0.0"/>
       </toolspecific>
     </arc>
-    <arc id="a3" source="t46" target="p21">
+    <arc id="a2" source="t10" target="p47">
       <inscription>
         <text>1</text>
       </inscription>
@@ -1811,7 +1800,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <displayProbabilityPosition x="500.0" y="0.0"/>
       </toolspecific>
     </arc>
-    <arc id="a4" source="p10" target="t5">
+    <arc id="a3" source="t46" target="p21">
       <inscription>
         <text>1</text>
       </inscription>
@@ -1833,18 +1822,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <displayProbabilityPosition x="500.0" y="0.0"/>
       </toolspecific>
     </arc>
-    <arc id="a145" source="p10" target="t16">
-      <inscription>
-        <text>1</text>
-      </inscription>
-      <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="0.0"/>
-      </toolspecific>
-    </arc>
-    <arc id="a39" source="p40" target="t34">
+    <arc id="a4" source="p10" target="t5">
       <inscription>
         <text>1</text>
       </inscription>
@@ -1866,7 +1844,18 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <displayProbabilityPosition x="500.0" y="0.0"/>
       </toolspecific>
     </arc>
-    <arc id="a144" source="p10" target="t15">
+    <arc id="a39" source="p40" target="t34">
+      <inscription>
+        <text>1</text>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="0.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a145" source="p10" target="t16">
       <inscription>
         <text>1</text>
       </inscription>
@@ -1888,18 +1877,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <displayProbabilityPosition x="500.0" y="0.0"/>
       </toolspecific>
     </arc>
-    <arc id="a147" source="t9" target="p25">
-      <inscription>
-        <text>1</text>
-      </inscription>
-      <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="0.0"/>
-      </toolspecific>
-    </arc>
-    <arc id="a7" source="p2" target="t6">
+    <arc id="a144" source="p10" target="t15">
       <inscription>
         <text>1</text>
       </inscription>
@@ -1921,7 +1899,29 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <displayProbabilityPosition x="500.0" y="0.0"/>
       </toolspecific>
     </arc>
-    <arc id="a36" source="t50" target="p6">
+    <arc id="a7" source="p2" target="t6">
+      <inscription>
+        <text>1</text>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="0.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a147" source="t9" target="p25">
+      <inscription>
+        <text>1</text>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="0.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a8" source="t6" target="p3">
       <inscription>
         <text>1</text>
       </inscription>
@@ -1943,7 +1943,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <displayProbabilityPosition x="500.0" y="0.0"/>
       </toolspecific>
     </arc>
-    <arc id="a8" source="t6" target="p3">
+    <arc id="a36" source="t50" target="p6">
       <inscription>
         <text>1</text>
       </inscription>
@@ -2548,7 +2548,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <displayProbabilityPosition x="500.0" y="0.0"/>
       </toolspecific>
     </arc>
-    <arc id="a102" source="t52" target="p59">
+    <arc id="a89" source="t4" target="p4">
       <inscription>
         <text>1</text>
       </inscription>
@@ -2559,7 +2559,7 @@ Created with Workflow PetriNet Designer Version 1.0 (woped.org)-->
         <displayProbabilityPosition x="500.0" y="0.0"/>
       </toolspecific>
     </arc>
-    <arc id="a89" source="t4" target="p4">
+    <arc id="a102" source="t52" target="p59">
       <inscription>
         <text>1</text>
       </inscription>

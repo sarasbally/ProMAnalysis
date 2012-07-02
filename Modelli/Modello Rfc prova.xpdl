@@ -172,7 +172,7 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-30" Name="SYS07-Avvia-Imac-Non-Categorizzato">
+        <Activity Id="ID-30" Name="SYS07-AvviaImacNonCategorizzato">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="450.0" YCoordinate="120.0" />
