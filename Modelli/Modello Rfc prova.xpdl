@@ -129,7 +129,7 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-23" Name="RFC07-Inizio-Attivita-Std">
+        <Activity Id="ID-23" Name="RFC07-InizioAttivitaStd">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="220.0" YCoordinate="60.0" />
@@ -461,7 +461,7 @@
             </NodeGraphicsInfo>
           </NodeGraphicsInfos>
         </Activity>
-        <Activity Id="ID-131" Name="RFC07.a-Registrazione inzio attivita">
+        <Activity Id="ID-131" Name="RFC07a-Registrazione inzio attivita">
           <NodeGraphicsInfos>
             <NodeGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3" Height="60.0" Width="80.0" LaneId="ID-6">
               <Coordinates XCoordinate="490.0" YCoordinate="340.0" />
@@ -1162,14 +1162,6 @@
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
-        <Transition Id="ID-11" From="ID-7" To="ID-8">
-          <ConnectorGraphicsInfos>
-            <ConnectorGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3">
-              <Coordinates XCoordinate="39.90354537963867" YCoordinate="296.6983337402344" />
-              <Coordinates XCoordinate="52.82880783081055" YCoordinate="298.17120361328125" />
-            </ConnectorGraphicsInfo>
-          </ConnectorGraphicsInfos>
-        </Transition>
         <Transition Id="ID-17" From="ID-8" To="ID-15">
           <ConnectorGraphicsInfos>
             <ConnectorGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3">
@@ -1447,6 +1439,14 @@
             <ConnectorGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3">
               <Coordinates XCoordinate="620.5" YCoordinate="60.17205047607422" />
               <Coordinates XCoordinate="660.5174560546875" YCoordinate="80.4825439453125" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="ID-11" From="ID-7" To="ID-8">
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="Sketchpad_BPMN" IsVisible="true" PageId="ID-3">
+              <Coordinates XCoordinate="39.89918899536133" YCoordinate="296.73614501953125" />
+              <Coordinates XCoordinate="52.757957458496094" YCoordinate="298.2420349121094" />
             </ConnectorGraphicsInfo>
           </ConnectorGraphicsInfos>
         </Transition>
