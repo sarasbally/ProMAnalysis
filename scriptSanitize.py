@@ -68,12 +68,14 @@ for line in spamReader:
 		resource=words[5]+'/'+words[7]+'/'+words[9]
 		words[4]=name
 		i = len(words)
-		for word in words:
-			if i==1:
-				print word
-			else:
-				sys.stdout.write(word+";")
-			i=i-1;
+		if(len(name)>0):
+			for word in words:
+				if i==1:
+					print word
+				else:
+					if(i>4):
+						sys.stdout.write(word+";")
+				i=i-1;
 	else:
 		x=x+1
 		i = len(header)
@@ -81,7 +83,8 @@ for line in spamReader:
 			if i==1:
 				print word
 			else:
-				sys.stdout.write(word+";")
+				if i>4:
+					sys.stdout.write(word+";")
 			i=i-1;
 		#if(name!=''):
 		#	if(map.has_key(nametrace)):
@@ -114,6 +117,6 @@ def generate_trace(event,name):
 
 	
 
-for key in map.keys():
-    event=map[key]
-    print generate_trace(event,key)
+#for key in map.keys():
+ #   event=map[key]
+ #   print generate_trace(event,key)
