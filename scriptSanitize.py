@@ -49,9 +49,9 @@ for line in spamReader:
         line[2]=time[0:punto]
         #resource=line[5]+'/'+line[7]+'/'+line[9]
         line[4]=name
+        if len(header)<len(line):
+        	del line[len(header):]
         i = len(line)
-        if len(header)<i:
-            del line[len(header):]
         if len(name)>0:
             n=0
             for word in line:
