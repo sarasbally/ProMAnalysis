@@ -26,7 +26,7 @@ def date_key(row):
 #spamReader.sort(key=date_key)
 
 #for row in spamReader:
-#	print row
+#    print row
 #      writer = csv.writer(open("test1.csv", "wb"))
 #      writer.writerows(row)
 #print spamReader
@@ -36,44 +36,46 @@ def date_key(row):
 map={}
 x=0
 for line in spamReader:
-	if x>0:
-		name=line[4]
-		name = name.replace(' ', '-')
-		name = name.replace('_', '-')
-		name = name.replace('---', '-')
-		name = name.replace('--', '-')
-		#name = name.replace(' ', '-')
-		punto=line[2].find(".")
-		time=line[2]
-		time = time.replace('/','-')
-		line[2]=time[0:punto]
-		#resource=line[5]+'/'+line[7]+'/'+line[9]
-		line[4]=name
-		i = len(line)
-		if len(name)>0:
-			n=0
-			for word in line:
-					if i==1:
-						print word
-					else:
-						sys.stdout.write(word+";")
-					i-=1
-	else:
-		x += 1
-		i = len(header)
-		for word in header:
-			if i==1:
-				print word
-			else:
-				sys.stdout.write(word+";")
-			i-=1
+    if x>0:
+        name=line[4]
+        name = name.replace(' ', '-')
+        name = name.replace('_', '-')
+        name = name.replace('---', '-')
+        name = name.replace('--', '-')
+        #name = name.replace(' ', '-')
+        punto=line[2].find(".")
+        time=line[2]
+        time = time.replace('/','-')
+        line[2]=time[0:punto]
+        #resource=line[5]+'/'+line[7]+'/'+line[9]
+        line[4]=name
+        i = len(line)
+        if len(header)<i:
+            del line[len(header):]
+        if len(name)>0:
+            n=0
+            for word in line:
+                    if i==1:
+                        print word
+                    else:
+                        sys.stdout.write(word+";")
+                    i-=1
+    else:
+        x += 1
+        i = len(header)
+        for word in header:
+            if i==1:
+                print word
+            else:
+                sys.stdout.write(word+";")
+            i-=1
 
 
 
 
 
 #NumeroRFC;Id;BeginDate;CategoriaRFC;Code;ChangeManager;ClasseRFC;Comp;FlowStatus;Richiedente;Stato;TipoRFC
-#0			1  2         3			  4		5			6			7	8			9			10	 11
+#0            1  2         3              4        5            6            7    8            9            10     11
 
 
 
