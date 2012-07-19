@@ -43,10 +43,12 @@ for line in spamReader:
         name = name.replace('---', '-')
         name = name.replace('--', '-')
         #name = name.replace(' ', '-')
-        punto=line[2].find(".")
+        if(line[2].find(".")!=-1):
+        	punto=line[2].find(".")
+        	temp=line[2]
+        	line[2]=temp[0:punto]
         time=line[2]
         time = time.replace('/','-')
-        line[2]=time[0:punto]
         #resource=line[5]+'/'+line[7]+'/'+line[9]
         line[4]=name
         if len(header)<len(line):
