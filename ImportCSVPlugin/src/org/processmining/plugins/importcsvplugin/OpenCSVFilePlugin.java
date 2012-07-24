@@ -60,6 +60,7 @@ public class OpenCSVFilePlugin extends AbstractImportPlugin{
 				String time=nextLine[2];
 
 				String name=nextLine[4].trim();
+				name = name.replaceAll("_", "-");
 				name = name.replaceAll(" ", "-");
 				name = name.replaceAll("--", "-");
 				name = name.replaceAll("--", "-");
@@ -135,7 +136,7 @@ public class OpenCSVFilePlugin extends AbstractImportPlugin{
 		XAttributeMap attMap = new XAttributeMapImpl();
 
 		putLiteral(attMap, XConceptExtension.KEY_NAME, name);
-		//putLiteral(attMap, "lifecycle:transition", "complete");
+		putLiteral(attMap, "lifecycle:transition", "complete");
 		if(res.trim().length()!=0){
 			putLiteral(attMap, XOrganizationalExtension.KEY_RESOURCE, res);
 		}

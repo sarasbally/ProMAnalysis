@@ -55,11 +55,12 @@ for line in spamReader:
 		name=words[4]
 		#name = re.sub('\W','-', name)
 		name = name.replace(' ', '-')
+		name = name.replace('_', '-')
 		name = name.replace('---', '-')
 		name = name.replace('--', '-')
 		#name = name.replace(' ', '-')
 		time=words[2]
-		resource=words[5]+'/'+words[7]
+		resource=words[5]+'/'+words[7]+'/'+words[9]
 		if(name!=''):
 			if(map.has_key(nametrace)):
 				event=map[nametrace]
