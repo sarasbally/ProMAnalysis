@@ -48,7 +48,7 @@ for line in spamReader:
         	temp=line[2]
         	line[2]=temp[0:punto]
         time=line[2]
-        time = time.replace('/','-')
+        line[2] = time.replace('/','-')
         #resource=line[5]+'/'+line[7]+'/'+line[9]
         line[4]=name
         if len(header)<len(line):
